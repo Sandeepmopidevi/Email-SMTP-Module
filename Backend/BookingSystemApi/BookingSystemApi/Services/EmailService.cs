@@ -9,7 +9,7 @@ namespace BookingSystemApi.Services
         private const string SmtpServer = "smtp.gmail.com";
         private const int SmtpPort = 587; // Use 465 for SSL if required
         private const string SenderEmail = "hotelmangement454@gmail.com";
-        private const string SenderPassword = "spskjduohduykxtd"; // Replace with your working App Password
+        private const string SenderPassword = "*****"; 
 
         public async Task SendEmailAsync(string recipientEmail, string subject, string body)
         {
